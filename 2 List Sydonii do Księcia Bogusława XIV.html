@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="la">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Sydonii von Borck</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4f1e9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        header, footer {
+            text-align: center;
+            padding: 10px 0;
+        }
+        header {
+            border-bottom: 2px solid #ccc;
+        }
+        footer {
+            border-top: 2px solid #ccc;
+            font-size: 0.8em;
+        }
+        h1, h2 {
+            font-family: 'Times New Roman', serif;
+        }
+        .buttons {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .buttons button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .buttons button:hover {
+            background-color: #0056b3;
+        }
+        .letter {
+            font-size: 1.2em;
+            line-height: 1.6;
+            white-space: pre-wrap;
+        }
+        .letter p {
+            margin: 10px 0;
+        }
+        .letter .signature {
+            text-align: right;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function changeLanguage(lang) {
+            const text = {
+                la: `Epistula Sydoniae von Borck ad Ducem Boguslaum XIV
+Stetinum, die 1 Septembris 1619
+
+Nobilissime Dux Boguslae XIV,
+
+Cum humilitate et fide in iustitiam Vestrae Celsitudinis, ad Vos, mi dux, appello, ut accusationes infundatas revocetis, quae animam meam onerarunt et me ad turpem accusationem magiae adduxerunt.
+
+Sum Sydonia von Borck, membrum antiqui et nobilis generis, cuius fides et devotio ad Ducatum Pomeraniae numquam in dubium vocata sunt. Vita mea, in servitium hominum dedicata, olim plena respectus et agnitionis, nunc infamata est per accusationes, quae veritatem non habent fundamentum, sed invidia et superstitione tantum.
+
+Mi domine, nefas est vere innocuam feminam ob adversa et calamitates, quae terras nostras invaserunt, accusare. Sola mea culpa est sollicitudo pro sanitate et bono eorum, qui me circumdant. Herbae et potiones, quas paravi, fructus erant studii et passionis meae, non magiae. Accusatio me magiae exercere non solum iniusta est, sed etiam nociva personae meae et generis mei.
+
+Vestra Celsitudo, vos invoco ut accusationes contra me denuo consideretis. Nulla vera iustitia fundari potest in testimoniis hominum perterritis et a tenebris ignorantiae deceptis. Vos oro ut iudices vestros iubeatis testes iterum audire et probationes aeque et sine partium studio examinare.
+
+Vestra Celsitudo etiam merita mea humilia pro hoc ducatu et honestatem et devotionem, quam semper in actionibus meis ostendi, consideret. Vos oro ut accusationes revocetis et hunc turpem processum finem imponatis, qui non solum me, sed totum genus nostrum infamat.
+
+Iustitia et veritas sint stellae vestrae decisiones regentes, et misericordia et ratio sint consiliarii vestri. Credo quod in manibus vestris sit potestas meum bonum nomen restituendi et me ab his indignis accusationibus absolvendum.
+
+Cum humilibus salutationibus,
+
+Sydonia von Borck`,
+                pl: `List Sydonii von Borck do Księcia Bogusława XIV
+Szczecin, dnia 1 września 1619 roku
+
+Najjaśniejszy Książę Bogusławie XIV,
+
+Z pokorą i wiarą w sprawiedliwość Waszej Wysokości, zwracam się do Was, mój książę, z prośbą o odwołanie bezpodstawnych zarzutów, które ciążyły na mojej duszy i doprowadziły mnie do haniebnego oskarżenia o czary.
+
+Jam jest Sydonia von Borck, członkini starego i szlachetnego rodu, którego wierność i oddanie Księstwu Pomorskiemu nigdy nie były kwestionowane. Moje życie, oddane w służbie ludziom, niegdyś pełne szacunku i uznania, teraz zostało zbrukane oskarżeniami, które nie mają oparcia w prawdzie, a jedynie w zawiści i przesądach.
+
+Panie mój, zaprawdę niegodziwością jest obwiniać niewinną kobietę za nieszczęścia i niepowodzenia, które spadły na nasze ziemie. Wszakże moją jedyną winą jest troska o zdrowie i dobrobyt tych, którzy mnie otaczają. Zioła i mikstury, które przygotowywałam, były owocem mojej nauki i pasji, nie zaś czarami. Oskarżenie mnie o praktyki magiczne jest nie tylko niesprawiedliwe, ale i krzywdzące wobec mojej osoby i mojego rodu.
+
+Wasza Wysokość, wzywam Was do ponownego rozważenia oskarżeń przeciwko mnie. Żadna prawdziwa sprawiedliwość nie może być oparta na zeznaniach ludzi przestraszonych i zmanipulowanych przez ciemne siły ignorancji. Proszę Was, abyście nakazali swoim sędziom ponowne przesłuchanie świadków oraz sprawiedliwe i bezstronne przeanalizowanie dowodów.
+
+Niechże Wasza Wysokość weźmie pod uwagę również moje skromne zasługi dla tego księstwa oraz uczciwość i oddanie, jakie zawsze przejawiałam w swoich działaniach. Proszę Was o odwołanie zarzutów i zamknięcie tego haniebnego procesu, który hańbi nie tylko mnie, ale i cały nasz ród.
+
+Niech sprawiedliwość i prawda będą przewodnimi gwiazdami Waszych decyzji, a miłosierdzie i rozum niechże będą Waszymi doradcami. Wierzę, że w Waszych rękach jest moc przywrócenia mi dobrej imię i uniewinnienia mnie od tych niegodnych oskarżeń.
+
+Z pokornymi pozdrowieniami,
+
+Sydonia von Borck`,
+                de: `Brief von Sydonia von Borck an Herzog Bogislaw XIV.
+Stettin, den 1. September 1619
+
+Eure Hoheit Herzog Bogislaw XIV.,
+
+Mit Demut und Glauben an die Gerechtigkeit Eurer Hoheit wende ich mich an Euch, mein Herzog, mit der Bitte, die unbegründeten Anschuldigungen zurückzuziehen, die meine Seele belasteten und mich zur schändlichen Anklage der Hexerei führten.
+
+Ich bin Sydonia von Borck, Mitglied eines alten und edlen Geschlechts, dessen Treue und Hingabe an das Herzogtum Pommern nie in Frage gestellt wurden. Mein Leben, das dem Dienst an den Menschen gewidmet war und einst voller Respekt und Anerkennung stand, wurde nun durch Anschuldigungen befleckt, die auf Neid und Aberglauben beruhen und nicht auf der Wahrheit.
+
+Mein Herr, es ist wahrlich eine Schande, eine unschuldige Frau für die Unglücke und Misserfolge verantwortlich zu machen, die unser Land getroffen haben. Meine einzige Schuld ist die Sorge um die Gesundheit und das Wohlbefinden derjenigen, die mich umgeben. Die Kräuter und Mixturen, die ich zubereitete, waren das Ergebnis meines Wissens und meiner Leidenschaft, nicht aber der Hexerei. Die Anschuldigung, ich würde magische Praktiken ausüben, ist nicht nur ungerecht, sondern auch schädlich für meine Person und mein Geschlecht.
+
+Eure Hoheit, ich fordere Euch auf, die Anschuldigungen gegen mich neu zu überdenken. Wahre Gerechtigkeit kann nicht auf den Aussagen von Menschen beruhen, die durch die dunklen Kräfte der Unwissenheit eingeschüchtert und manipuliert wurden. Ich bitte Euch, Eure Richter anzuweisen, die Zeugen erneut zu verhören und die Beweise fair und unparteiisch zu prüfen.
+
+Möge Eure Hoheit auch meine bescheidenen Verdienste um dieses Herzogtum und die Ehrlichkeit und Hingabe, die ich stets in meinen Handlungen gezeigt habe, berücksichtigen. Ich bitte Euch, die Anschuldigungen zurückzunehmen und diesen schändlichen Prozess zu beenden, der nicht nur mich, sondern unser ganzes Geschlecht entehrt.
+
+Möge Gerechtigkeit und Wahrheit die Leitsterne Eurer Entscheidungen sein und Barmherzigkeit und Vernunft Eure Berater. Ich glaube, dass es in Eurer Macht liegt, meinen guten Namen wiederherzustellen und mich von diesen unwürdigen Anschuldigungen freizusprechen.
+
+Mit demütigen Grüßen,
+
+Sydonia von Borck`,
+                en: `Letter from Sydonia von Borck to Duke Bogislaw XIV
+Szczecin, September 1, 1619
+
+Most Illustrious Duke Bogislaw XIV,
+
+With humility and faith in the justice of Your Highness, I address you, my Duke, with a plea to revoke the unfounded accusations that have burdened my soul and led to my shameful accusation of witchcraft.
+
+I am Sydonia von Borck, a member of an old and noble family, whose loyalty and devotion to the Duchy of Pomerania have never been questioned. My life, dedicated to the service of the people, once full of respect and recognition, has now been tarnished by accusations that have no basis in truth, but only in envy and superstition.
+
+My lord, it is truly an injustice to blame an innocent woman for the misfortunes and failures that have befallen our lands. My only fault is my concern for the health and well-being of those around me. The herbs and potions I prepared were the fruit of my learning and passion, not witchcraft. Accusing me of practicing magic is not only unjust but also harmful to my person and my family.
+
+Your Highness, I call upon you to reconsider the accusations against me. No true justice can be based on the testimonies of people frightened and manipulated by the dark forces of ignorance. I ask you to order your judges to re-examine the witnesses and to analyze the evidence fairly and impartially.
+
+May Your Highness also take into account my humble merits for this duchy and the honesty and dedication that I have always shown in my actions. I ask you to revoke the charges and close this shameful trial, which disgraces not only me but our entire family.
+
+May justice and truth be the guiding stars of your decisions, and mercy and reason be your counselors. I believe that in your hands is the power to restore my good name and to exonerate me from these unworthy accusations.
+
+With humble greetings,
+
+Sydonia von Borck`
+            };
+            document.getElementById('content').textContent = text[lang];
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Epistula Sydoniae von Borck</h1>
+        </header>
+        <div class="buttons">
+            <button onclick="changeLanguage('pl')">PL</button>
+            <button onclick="changeLanguage('de')">DE</button>
+            <button onclick="changeLanguage('en')">EN</button>
+            <button onclick="changeLanguage('la')">LA</button>
+        </div>
+        <div id="content" class="letter">
+            Epistula Sydoniae von Borck ad Ducem Boguslaum XIV
+            Stetinum, die 1 Septembris 1619
+
+            Nobilissime Dux Boguslae XIV,
+
+            Cum humilitate et fide in iustitiam Vestrae Celsitudinis, ad Vos, mi dux, appello, ut accusationes infundatas revocetis, quae animam meam onerarunt et me ad turpem accusationem magiae adduxerunt.
+
+            Sum Sydonia von Borck, membrum antiqui et nobilis generis, cuius fides et devotio ad Ducatum Pomeraniae numquam in dubium vocata sunt. Vita mea, in servitium hominum dedicata, olim plena respectus et agnitionis, nunc infamata est per accusationes, quae veritatem non habent fundamentum, sed invidia et superstitione tantum.
+
+            Mi domine, nefas est vere innocuam feminam ob adversa et calamitates, quae terras nostras invaserunt, accusare. Sola mea culpa est sollicitudo pro sanitate et bono eorum, qui me circumdant. Herbae et potiones, quas paravi, fructus erant studii et passionis meae, non magiae. Accusatio me magiae exercere non solum iniusta est, sed etiam nociva personae meae et generis mei.
+
+            Vestra Celsitudo, vos invoco ut accusationes contra me denuo consideretis. Nulla vera iustitia fundari potest in testimoniis hominum perterritis et a tenebris ignorantiae deceptis. Vos oro ut iudices vestros iubeatis testes iterum audire et probationes aeque et sine partium studio examinare.
+
+            Vestra Celsitudo etiam merita mea humilia pro hoc ducatu et honestatem et devotionem, quam semper in actionibus meis ostendi, consideret. Vos oro ut accusationes revocetis et hunc turpem processum finem imponatis, qui non solum me, sed totum genus nostrum infamat.
+
+            Iustitia et veritas sint stellae vestrae decisiones regentes, et misericordia et ratio sint consiliarii vestri. Credo quod in manibus vestris sit potestas meum bonum nomen restituendi et me ab his indignis accusationibus absolvendum.
+
+            Cum humilibus salutationibus,
+
+            Sydonia von Borck
+        </div>
+        <footer>
+            <p>&copy; 2024 Twoja Nazwa. Wszelkie prawa zastrzeżone.</p>
+        </footer>
+    </div>
+</body>
+</html>
